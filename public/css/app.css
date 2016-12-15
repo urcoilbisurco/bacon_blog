@@ -1,0 +1,76 @@
+*, body, html {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica";
+}
+
+header .bar {
+  background: url("/images/bacon.jpg");
+  background-size: cover;
+  height: 100px;
+  display: -webkit-box;
+  display: flex;
+  padding: 16px;
+}
+
+header .bar a {
+  text-decoration: none;
+  color: white;
+  margin-top: auto;
+  font-size: 25px;
+}
+
+.online-flag {
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+  background: #D32F2F;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  padding: 16px;
+  color: #666;
+}
+
+main .posts {
+  margin-top: 16px;
+}
+
+main .posts .empty-posts {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+main .posts .empty-posts p {
+  margin-top: 16px;
+}
+
+main .posts .post {
+  margin-bottom: 16px;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.3);
+}
+
+main .posts .post h5 {
+  font-size: 20px;
+  color: #D32F2F;
+  margin-bottom: 8px;
+}
+
+main .posts .post p {
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=app.css.map */
